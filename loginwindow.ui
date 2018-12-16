@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoginWindow</class>
+ <widget class="QWidget" name="LoginWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>240</width>
+    <height>124</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+    background: white;</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QWidget" name="widget" native="true">
+     <property name="styleSheet">
+      <string notr="true">background: transparent;</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QLabel" name="label_Login">
+            <property name="font">
+             <font>
+              <family>Adobe Clean</family>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: none;
+color: black;</string>
+            </property>
+            <property name="text">
+             <string>Логин</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_Login">
+            <property name="font">
+             <font>
+              <family>Adobe Clean</family>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>ArrowCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit{
+	background-color: transparent;
+    border-bottom:  1px solid #A5BECA;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0px;
+}</string>
+            </property>
+            <property name="maxLength">
+             <number>32</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <item>
+           <widget class="QLabel" name="label_Pass">
+            <property name="font">
+             <font>
+              <family>Adobe Clean</family>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: none;
+color: black;</string>
+            </property>
+            <property name="text">
+             <string>Пароль</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_Pass">
+            <property name="font">
+             <font>
+              <family>Adobe Clean</family>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>ArrowCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit{
+	background-color: transparent;
+    border-bottom:  1px solid #A5BECA;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0px;
+}</string>
+            </property>
+            <property name="maxLength">
+             <number>32</number>
+            </property>
+            <property name="echoMode">
+             <enum>QLineEdit::Password</enum>
+            </property>
+            <property name="readOnly">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QPushButton" name="pushButton_Login">
+            <property name="font">
+             <font>
+              <family>Adobe Clean</family>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+  background-color: rgb(209, 238, 252);
+  color: black; 
+  border-right: 0;
+  border-left: 0;
+  border-top: 0;
+  border-bottom: 0;
+  height: 24;
+}
+
+QPushButton:pressed {
+    background-color: rgb(165, 190, 202);
+}
+
+QPushButton:hover:!pressed
+{
+	 background-color: rgb(187, 214, 228);
+}</string>
+            </property>
+            <property name="text">
+             <string>Вход</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_Reg">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="font">
+             <font>
+              <family>Adobe Clean</family>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+  background-color: rgb(209, 238, 252);
+  color: black; 
+  border-right: 0;
+  border-left: 0;
+  border-top: 0;
+  border-bottom: 0;
+  height: 24;
+}
+
+QPushButton:pressed {
+    background-color: rgb(165, 190, 202);
+}
+
+QPushButton:hover:!pressed
+{
+	 background-color: rgb(187, 214, 228);
+}</string>
+            </property>
+            <property name="text">
+             <string>Регистрация</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
